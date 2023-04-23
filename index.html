@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Css/normalize.css" rel="stylesheet" />
+    <link href="Css/style.css" rel="stylesheet" />
+
+    <title>YouTube Data API V3</title>
+  </head>
+  <body>
+    <h1>YouTube Data API Search</h1>
+    <form>
+        <h2>Search your Video</h2>
+      <fieldset>
+        <label for="search">Search term:</label>
+        <input type="text" id="search" name="search" /><br />
+      </fieldset>
+
+      <button id="search-btn">Search</button>
+    </form>
+    <div id="results"></div>
+
+    <!-- putting the script at last because it needs to be accessed only after the other finish loading -->
+    <script src="Js/script.js"></script>
+  </body>
+</html>
